@@ -13,3 +13,7 @@ export const USER_REGISTER_URL = `${BASE_URL}/api/users/register`;
 export const ORDERS_URL = `${BASE_URL}/api/orders`;
 export const ORDER_CREATE_URL = `${BASE_URL}/api/orders/create`;
 export const ORDER_NEW_FOR_CURRENT_USER_URL = `${BASE_URL}/api/orders/newOrderForCurrentUser`;
+export const ORDER_ADD_PAYMENT = `${BASE_URL}/api/payments/init`;
+export const PAYMENT_SUCCESS = `${BASE_URL}/api/payments/ssl-payment-success`;
+export const PAYMENT_FAIL = `${BASE_URL}/api/payments/ssl-payment-fail`;
+export const PAYMENT_CANCEL = `${BASE_URL}/api/payments/ssl-payment-cancel`;

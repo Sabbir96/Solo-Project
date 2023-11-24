@@ -33,7 +33,12 @@ import { MapComponent } from './components/partials/map/map.component';
 import { AuthInterceptor } from './auth/auth.interceptor';
 import { PaymentPageComponent } from './components/pages/payment-page/payment-page.component';
 import { PaymentButtonComponent } from './components/partials/payment-button/payment-button.component';
-
+import { RestaurentsComponent } from './components/pages/restaurents/restaurents.component';
+import { PaymentSuccessComponent } from './components/pages/payment-success/payment-success.component';
+import { PaymentFailComponent } from './components/pages/payment-fail/payment-fail.component';
+import { PaymentCancelComponent } from './components/pages/payment-cancel/payment-cancel.component';
+import { ProfilePageComponent } from './components/pages/profile-page/profile-page.component';
+import { OrdersPageComponent } from './components/pages/orders-page/orders-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -58,6 +63,13 @@ import { PaymentButtonComponent } from './components/partials/payment-button/pay
     MapComponent,
     PaymentPageComponent,
     PaymentButtonComponent,
+    RestaurentsComponent,
+    PaymentSuccessComponent,
+    PaymentFailComponent,
+    PaymentCancelComponent,
+    ProfilePageComponent,
+    OrdersPageComponent,
+   
   ],
 
   imports: [
